@@ -16,12 +16,12 @@ python manage.py shell
 ```
 
 - Импортируйте функции в Django shell командой:
-```
+```python
 from scripts import fix_marks, remove_chastisements, create_commendation
 ```
 
 - Для исправления оценок, удаления замечаний и добавления похвалы введите в терминал:
-```
+```python
 fix_marks('Имя ученика')
 remove_chastisements('Имя ученика')
 create_commendation('Имя ученика', 'Название предмета')
